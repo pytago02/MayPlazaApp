@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{723ED683-E417-4D2C-8064-5D3E6CD234C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>demo02</RootNamespace>
+    <AssemblyName>demo02</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\tableDAO.cs" />
+    <Compile Include="DAO\tableDAOBase.cs" />
+    <Compile Include="DTO\Table.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nhanvien.Designer.cs">
+      <DependentUpon>nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quanly.Designer.cs">
+      <DependentUpon>quanly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyKhachSanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyKhachSanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinCaNhan.Designer.cs">
+      <DependentUpon>ThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\nv_DatTraPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\nv_DatTraPhong.Designer.cs">
+      <DependentUpon>nv_DatTraPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\ql_DichVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\ql_DichVu.Designer.cs">
+      <DependentUpon>ql_DichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\ql_NhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\ql_NhanVien.Designer.cs">
+      <DependentUpon>ql_NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\ql_Phong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\ql_Phong.Designer.cs">
+      <DependentUpon>ql_Phong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseControl\ql_ThongKe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UseControl\ql_ThongKe.Designer.cs">
+      <DependentUpon>ql_ThongKe.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nhanvien.resx">
+      <DependentUpon>nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="quanly.resx">
+      <DependentUpon>quanly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinCaNhan.resx">
+      <DependentUpon>ThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\nv_DatTraPhong.resx">
+      <DependentUpon>nv_DatTraPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\ql_DichVu.resx">
+      <DependentUpon>ql_DichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\ql_NhanVien.resx">
+      <DependentUpon>ql_NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\ql_Phong.resx">
+      <DependentUpon>ql_Phong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseControl\ql_ThongKe.resx">
+      <DependentUpon>ql_ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuanLyKhachSanDataSet.xsc">
+      <DependentUpon>QuanLyKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyKhachSanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyKhachSanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyKhachSanDataSet.xss">
+      <DependentUpon>QuanLyKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\LOGO-TRANG.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,40 @@
+C:\1D\WorkSpace\mayplaza\demo02\demo02\bin\Debug\demo02.exe.config
+C:\1D\WorkSpace\mayplaza\demo02\demo02\bin\Debug\demo02.exe
+C:\1D\WorkSpace\mayplaza\demo02\demo02\bin\Debug\demo02.pdb
+C:\1D\WorkSpace\mayplaza\demo02\demo02\bin\Debug\Guna.UI2.dll
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.AssemblyReference.cache
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.Properties.Resources.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.GenerateResource.cache
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.CoreCompileInputs.cache
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.CopyComplete
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.exe
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.pdb
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.nhanvien.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.Login.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.nv_DatTraPhong.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.ThongTinCaNhan.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.quanly.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_ThongKe.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_Phong.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_DichVu.resources
+C:\1D\WorkSpace\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_NhanVien.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\bin\Debug\demo02.exe.config
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\bin\Debug\demo02.exe
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\bin\Debug\demo02.pdb
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\bin\Debug\Guna.UI2.dll
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.AssemblyReference.cache
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.Login.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.nhanvien.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.Properties.Resources.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.quanly.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.ThongTinCaNhan.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.nv_DatTraPhong.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_DichVu.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_NhanVien.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_Phong.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.UseControl.ql_ThongKe.resources
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.GenerateResource.cache
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.csproj.Up2Date
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.exe
+C:\Users\Dinh Trung Vap\Downloads\Compressed\mayplaza\demo02\demo02\obj\Debug\demo02.pdb
